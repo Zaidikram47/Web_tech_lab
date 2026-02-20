@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Innovative Software Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-200 selection:text-blue-900">
+
+    <header class="fixed w-full top-0 z-50 bg-white/70 backdrop-blur-md border-b border-slate-200/50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <div>
+                <a href="#home" class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 tracking-tight">
+                    TechSolutions.
+                </a>
+            </div>
+            <ul class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                <li><a href="#home" class="hover:text-blue-600 transition-colors">Home</a></li>
+                <li><a href="#services" class="hover:text-blue-600 transition-colors">Services</a></li>
+                <li><a href="#about" class="hover:text-blue-600 transition-colors">About</a></li>
+                <li><a href="#portfolio" class="hover:text-blue-600 transition-colors">Portfolio</a></li>
+                <li><a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50/50 to-indigo-50/50">
+        <div class="absolute top-20 right-0 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-72 h-72 bg-indigo-400/10 rounded-full blur-3xl"></div>
+
+        <div class="container mx-auto px-6 text-center relative z-10 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
+                Transform Your Business with <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Innovative Solutions</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                We deliver cutting-edge technology tailored to your unique business needs. Build faster, scale smarter, and outpace the competition.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 bg-blue-600 text-white rounded-xl font-bold shadow-lg shadow-blue-600/30 hover:bg-blue-700 hover:-translate-y-1 transition-all duration-300">
+                    Get Started
+                </a>
+                <a href="#services" class="w-full sm:w-auto px-8 py-4 bg-white text-slate-700 rounded-xl font-bold shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Services</h2>
+                <p class="text-slate-500">Comprehensive software solutions designed to drive your business forward with scalable, future-proof technology.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-blue-900/5 hover:-translate-y-2 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Custom Software</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">Tailored applications designed specifically for your business requirements, built with the latest technologies.</p>
+                </article>
+
+                <article class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-900/5 hover:-translate-y-2 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Web Apps</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">Responsive, scalable web applications that deliver exceptional user experiences across all devices.</p>
+                </article>
+
+                <article class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-purple-900/5 hover:-translate-y-2 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Mobile Apps</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">Native and cross-platform mobile applications for iOS and Android that engage and retain your users.</p>
+                </article>
+                
+                <article class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-blue-900/5 hover:-translate-y-2 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Cloud Solutions</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">Secure and scalable cloud infrastructure to modernize your operations and reduce overhead costs.</p>
+                </article>
+
+                <article class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-900/5 hover:-translate-y-2 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">AI & ML</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">Intelligent solutions that leverage artificial intelligence to automate processes and gain actionable insights.</p>
+                </article>
+
+                <article class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-purple-900/5 hover:-translate-y-2 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">IT Consulting</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">Expert guidance to help you navigate complex technology decisions and optimize your IT strategy.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-slate-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About TechSolutions</h2>
+                    <p class="text-slate-400 text-lg leading-relaxed mb-8">With over 15 years of experience in the software industry, we've been helping businesses of all sizes achieve their digital transformation goals with precision and scale.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+                            <h3 class="text-xl font-bold text-blue-400 mb-2">Our Mission</h3>
+                            <p class="text-slate-400 text-sm">To empower businesses through innovative technology solutions that drive growth, efficiency, and competitive advantage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="p-6 bg-slate-800 rounded-3xl border border-slate-700 text-center hover:border-blue-500/50 transition-colors">
+                        <span class="block text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400 mb-2">500+</span>
+                        <span class="text-slate-400 text-sm font-medium uppercase tracking-wider">Projects</span>
+                    </div>
+                    <div class="p-6 bg-slate-800 rounded-3xl border border-slate-700 text-center hover:border-blue-500/50 transition-colors">
+                        <span class="block text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400 mb-2">100+</span>
+                        <span class="text-slate-400 text-sm font-medium uppercase tracking-wider">Developers</span>
+                    </div>
+                    <div class="p-6 bg-slate-800 rounded-3xl border border-slate-700 text-center hover:border-blue-500/50 transition-colors">
+                        <span class="block text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400 mb-2">15</span>
+                        <span class="text-slate-400 text-sm font-medium uppercase tracking-wider">Years Exp</span>
+                    </div>
+                    <div class="p-6 bg-slate-800 rounded-3xl border border-slate-700 text-center hover:border-blue-500/50 transition-colors">
+                        <span class="block text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400 mb-2">24/7</span>
+                        <span class="text-slate-400 text-sm font-medium uppercase tracking-wider">Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Work</h2>
+                <p class="text-slate-500">A glimpse of the high-performance projects we've delivered.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">E-Commerce Platform</h3>
+                    <p class="text-slate-500 mb-6 leading-relaxed">Built a comprehensive e-commerce solution for a retail client, handling 100k+ daily transactions.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">React</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Node.js</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">MongoDB</span>
+                    </div>
+                </article>
+
+                <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Healthcare Management</h3>
+                    <p class="text-slate-500 mb-6 leading-relaxed">Developed an integrated system for hospital management, patient records, and secure scheduling.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Angular</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Java</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">PostgreSQL</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white border-t border-slate-100">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-16">
+                <div class="lg:col-span-3">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">Get In Touch</h2>
+                    <p class="text-slate-500 mb-8">Ready to start your project? Let's talk.</p>
+                    
+                    <form class="space-y-5">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-2">Name</label>
+                                <input type="text" class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all" required placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-2">Email</label>
+                                <input type="email" class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Service Interested In</label>
+                            <select class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all">
+                                <option>Custom Software Development</option>
+                                <option>Web Application Development</option>
+                                <option>Mobile App Development</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Message</label>
+                            <textarea rows="4" class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-4 bg-slate-900 text-white rounded-xl font-bold hover:bg-blue-600 transition-colors shadow-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="lg:col-span-2 bg-slate-900 text-white p-10 rounded-3xl flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold mb-8">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <span class="block text-slate-400 text-sm font-semibold uppercase tracking-wider mb-1">Address</span>
+                            <p class="leading-relaxed text-slate-200">123 Tech Street,<br>Silicon Valley, CA 94025</p>
+                        </div>
+                        <div>
+                            <span class="block text-slate-400 text-sm font-semibold uppercase tracking-wider mb-1">Direct Contact</span>
+                            <p class="text-slate-200">+1 (555) 123-4567<br>info@techsolutions.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-50 py-12 border-t border-slate-200 text-slate-500 text-sm text-center">
+        <p>&copy; 2026 TechSolutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
